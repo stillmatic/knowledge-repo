@@ -124,10 +124,10 @@
     .feed-post {
         flex-direction: column;
         border-radius: 0px;
-        margin-left: -25px;
-        margin-right: -25px;
+        /*margin-left: -25px;*/
+        /*margin-right: -25px;*/
         margin-bottom: 10px;
-        border-bottom: 1px solid #ddd;
+        border: 1px solid #ddd;
     }
 
     .feed-post .feed-thumbnail {

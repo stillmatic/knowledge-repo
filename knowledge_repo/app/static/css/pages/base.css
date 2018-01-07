@@ -654,11 +654,11 @@ border-color: #11b6aa;
 }
 
 .group-by-options {
-  margin-left: -40px;
+  /*margin-left: -40px;*/
 }
 
 .sort-by-options {
-  margin-left: -100px;
+  /*margin-left: -100px;*/
 }
 .radio-cluster {
   font-weight: 100;

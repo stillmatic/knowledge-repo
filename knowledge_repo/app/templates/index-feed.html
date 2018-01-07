@@ -39,10 +39,10 @@
 <div id="feed-posts">
     {% for post in posts %}
     <div class="row feed-post" data-path='{{post.path|urlencode}}' data-url="{{url_for('posts.render', path=post.path)}}">
-        <div class='feed-thumbnail'>
+        <div class='col-md-3'>
             <img src="{{ post['thumbnail'] if post['thumbnail'] else '/static/images/default_thumbnail.png' }}" />
         </div>
-        <div class='feed-metadata'>
+        <div class='col-md-9'>
                 <span class="feed-title">{{ post.title }}</span>
                 <span class="feed-authors"> {{ format_authors(post.authors)|safe }}</span>
                 <span class="feed-tags">
